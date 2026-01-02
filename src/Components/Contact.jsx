@@ -40,7 +40,7 @@ function Contact(){
             <div>
             <input value={user} onChange={handleuser} className="border bg-black rounded p-2 mt-3 pr-48 hover:border-pink-600" type="text" placeholder="Username"></input><br></br>
             <input value={email} onChange={handleemail} className="border bg-black rounded p-2 mt-3 pr-48 hover:border-pink-600" type="email" placeholder="Email"></input><br></br>
-            <textarea value={msg} onChange={handlemsg} className="border bg-black rounded p-2 mt-3 pr-56 pb-10 hover:border-pink-600" placeholder="Message"></textarea><br></br>
+            <textarea value={msg} onChange={handlemsg} className="border bg-black rounded p-2 mt-3 pr-52 pb-10 hover:border-pink-600" placeholder="Message"></textarea><br></br>
             <button onClick={send} className="px-6 py-2 ml-2 mt-5 cursor-pointer rounded text-white font-semibold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 shadow-sm shadow-indigo-300 hover:shadow-xl">Submit</button>
             </div>
         </div>
