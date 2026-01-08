@@ -33,28 +33,28 @@ Professional experience (if applicable)
 
 **💼 Projects Page**
 
-    1.Project Name
+Project Name
 
-    2.Project descriptions
+Project descriptions
 
-    3.Skills 
+Skills 
 
-    4.Links to:
+Links to:
 
-        Live demos
+ Live demos
 
-        GitHub repositories (source code)
+ GitHub repositories (source code)
 
 **📬 Contact Page**
 
 Contact form with:
 
-      1.Name
+ Name
 
-      2.Email
+ Email
 
-      3.Message
+ Message
 
-      4.Social media links (LinkedIn, GitHub)
+ Social media links (LinkedIn, GitHub)
 
-      5.Option to view resume
+ Option to view resume
