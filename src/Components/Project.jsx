@@ -37,6 +37,13 @@ function Project(){
             website : "https://movie-app-weld-nine-61.vercel.app",
             github : "https://github.com/Saranya2991/Movie-App"
           },
+          {
+            title : "E-Commerce Website",
+            desc : "This project is a fully functional E-Commerce Web Application developed as the final assignment for the Full Stack Program. It is built using the MERN stack (MongoDB, Express.js, React, Node.js) and provides a complete online shopping experience, including product browsing, user authentication, shopping cart functionality, order management.", 
+            tags : ["HTML", "CSS","JavaScript","MERN Stack"],
+            website : "https://e-commerce-frontend-r9o9.onrender.com",
+            github : "https://github.com/Saranya2991/E-Commerce-frontend"
+          },
         ]
 
     return(

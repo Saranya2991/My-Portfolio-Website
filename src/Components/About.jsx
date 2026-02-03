@@ -55,6 +55,10 @@ I am detail-oriented, adaptable, and continuously learning new technologies. I e
         </button>
         <button type="button"
           className="px-6 py-2 cursor-pointer rounded-full text-white font-semibold tracking-wide bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 shadow-lg shadow-indigo-300 hover:shadow-xl hover:scale-105 transition-all">
+          Render
+        </button>
+        <button type="button"
+          className="px-6 py-2 cursor-pointer rounded-full text-white font-semibold tracking-wide bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 shadow-lg shadow-indigo-300 hover:shadow-xl hover:scale-105 transition-all">
           FireBase
         </button>
         <button type="button"
