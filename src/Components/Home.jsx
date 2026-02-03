@@ -5,10 +5,16 @@ import Resume from "../assets/Resume.pdf"
 import About from "./About";
 import Project from "./Project";
 import Contact from "./Contact";
+import { useEffect } from "react";
 
 
 function Home(){
-
+    useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
     return(
         <div className="pt-24">
         <div className="text-white block md:flex mt-10 lg:mt-20">

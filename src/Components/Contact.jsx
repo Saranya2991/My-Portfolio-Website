@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Photo from "../assets/Photo.jpg"
 
 function Contact(){
@@ -25,6 +25,12 @@ function Contact(){
             setMsg("")
         }
 
+        useEffect(() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "instant",
+            });
+          }, []);
     return(
         
         <div className="text-white w-3/5 md:w-2/4 lg:w-full mx-auto mt-24">

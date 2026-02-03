@@ -1,4 +1,6 @@
 import ProjectCard from "../Section/ProjectCard"
+import { useEffect } from "react";
+
 function Project(){
         const navlink = [
           
@@ -45,6 +47,12 @@ function Project(){
             github : "https://github.com/Saranya2991/E-Commerce-frontend"
           },
         ]
+        useEffect(() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "instant",
+            });
+          }, []);
 
     return(
         

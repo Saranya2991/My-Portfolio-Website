@@ -1,5 +1,12 @@
 import Photo from "../assets/Photo.jpg"
+import { useEffect } from "react";
 function About(){
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "instant",
+    });
+  }, []);
     return(
         <div className="text-white w-full mt-28">
             <h1 className="mt-12 text-3xl font-bold text-blue-500">About Me</h1>
